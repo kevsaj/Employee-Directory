@@ -1,0 +1,402 @@
+[
+{
+"name": {
+"title": "Mr",
+"first": "Jose",
+"last": "Miller"
+},
+"location": {
+"street": {
+"number": 1476,
+"name": "Taylor St"
+},
+"city": "Nashville",
+"state": "Iowa",
+"country": "United States",
+"postcode": 30669,
+"coordinates": {
+"latitude": "19.0281",
+"longitude": "-122.2314"
+},
+"timezone": {
+"offset": "-5:00",
+"description": "Eastern Time (US & Canada), Bogota, Lima"
+}
+},
+"email": "jose.miller@example.com",
+"dob": {
+"date": "1979-03-09T08:38:59.040Z",
+"age": 42
+},
+"cell": "(392)-440-0769",
+"id": {
+"name": "SSN",
+"value": "346-21-0340"
+},
+"picture": {
+"large": "https://randomuser.me/api/portraits/men/88.jpg",
+"medium": "https://randomuser.me/api/portraits/med/men/88.jpg",
+"thumbnail": "https://randomuser.me/api/portraits/thumb/men/88.jpg"
+}
+},
+{
+"name": {
+"title": "Mrs",
+"first": "Megan",
+"last": "Slawa"
+},
+"location": {
+"street": {
+"number": 8707,
+"name": "Pierre Ave"
+},
+"city": "Campbellton",
+"state": "Ontario",
+"country": "Canada",
+"postcode": "C1T 8Y2",
+"coordinates": {
+"latitude": "49.8456",
+"longitude": "166.9316"
+},
+"timezone": {
+"offset": "-11:00",
+"description": "Midway Island, Samoa"
+}
+},
+"email": "megan.slawa@example.com",
+"dob": {
+"date": "1984-01-03T11:52:26.914Z",
+"age": 37
+},
+"cell": "279-133-2864",
+"id": {
+"name": "",
+"value": null
+},
+"picture": {
+"large": "https://randomuser.me/api/portraits/women/79.jpg",
+"medium": "https://randomuser.me/api/portraits/med/women/79.jpg",
+"thumbnail": "https://randomuser.me/api/portraits/thumb/women/79.jpg"
+}
+},
+{
+"name": {
+"title": "Ms",
+"first": "Kitty",
+"last": "Snyder"
+},
+"location": {
+"street": {
+"number": 4149,
+"name": "Valwood Pkwy"
+},
+"city": "Yonkers",
+"state": "Minnesota",
+"country": "United States",
+"postcode": 49256,
+"coordinates": {
+"latitude": "-35.4553",
+"longitude": "-30.5527"
+},
+"timezone": {
+"offset": "+10:00",
+"description": "Eastern Australia, Guam, Vladivostok"
+}
+},
+"email": "kitty.snyder@example.com",
+"dob": {
+"date": "1951-09-22T12:27:14.880Z",
+"age": 70
+},
+"cell": "(702)-789-8344",
+"id": {
+"name": "SSN",
+"value": "457-88-6324"
+},
+"picture": {
+"large": "https://randomuser.me/api/portraits/women/13.jpg",
+"medium": "https://randomuser.me/api/portraits/med/women/13.jpg",
+"thumbnail": "https://randomuser.me/api/portraits/thumb/women/13.jpg"
+}
+},
+{
+"name": {
+"title": "Mr",
+"first": "Blake",
+"last": "Chu"
+},
+"location": {
+"street": {
+"number": 8062,
+"name": "22nd Ave"
+},
+"city": "Carleton",
+"state": "Alberta",
+"country": "Canada",
+"postcode": "E2P 3N5",
+"coordinates": {
+"latitude": "-4.5979",
+"longitude": "-149.9586"
+},
+"timezone": {
+"offset": "+3:30",
+"description": "Tehran"
+}
+},
+"email": "blake.chu@example.com",
+"dob": {
+"date": "1944-08-28T03:24:14.401Z",
+"age": 77
+},
+"cell": "874-848-4348",
+"id": {
+"name": "",
+"value": null
+},
+"picture": {
+"large": "https://randomuser.me/api/portraits/men/11.jpg",
+"medium": "https://randomuser.me/api/portraits/med/men/11.jpg",
+"thumbnail": "https://randomuser.me/api/portraits/thumb/men/11.jpg"
+}
+},
+{
+"name": {
+"title": "Ms",
+"first": "Taylor",
+"last": "Little"
+},
+"location": {
+"street": {
+"number": 5273,
+"name": "Royal Ln"
+},
+"city": "Oxnard",
+"state": "Hawaii",
+"country": "United States",
+"postcode": 49452,
+"coordinates": {
+"latitude": "82.7627",
+"longitude": "-26.7720"
+},
+"timezone": {
+"offset": "+11:00",
+"description": "Magadan, Solomon Islands, New Caledonia"
+}
+},
+"email": "taylor.little@example.com",
+"dob": {
+"date": "1961-06-13T18:56:39.763Z",
+"age": 60
+},
+"cell": "(746)-552-9569",
+"id": {
+"name": "SSN",
+"value": "528-27-6117"
+},
+"picture": {
+"large": "https://randomuser.me/api/portraits/women/23.jpg",
+"medium": "https://randomuser.me/api/portraits/med/women/23.jpg",
+"thumbnail": "https://randomuser.me/api/portraits/thumb/women/23.jpg"
+}
+},
+{
+"name": {
+"title": "Mrs",
+"first": "Lea",
+"last": "Anderson"
+},
+"location": {
+"street": {
+"number": 7237,
+"name": "Argyle St"
+},
+"city": "Dorchester",
+"state": "Newfoundland and Labrador",
+"country": "Canada",
+"postcode": "Z9S 3P7",
+"coordinates": {
+"latitude": "17.2811",
+"longitude": "110.2443"
+},
+"timezone": {
+"offset": "-9:00",
+"description": "Alaska"
+}
+},
+"email": "lea.anderson@example.com",
+"dob": {
+"date": "1989-09-11T02:43:51.597Z",
+"age": 32
+},
+"cell": "706-984-0245",
+"id": {
+"name": "",
+"value": null
+},
+"picture": {
+"large": "https://randomuser.me/api/portraits/women/79.jpg",
+"medium": "https://randomuser.me/api/portraits/med/women/79.jpg",
+"thumbnail": "https://randomuser.me/api/portraits/thumb/women/79.jpg"
+}
+},
+{
+"name": {
+"title": "Ms",
+"first": "Sofia",
+"last": "Miller"
+},
+"location": {
+"street": {
+"number": 6980,
+"name": "Elgin St"
+},
+"city": "Killarney",
+"state": "Nunavut",
+"country": "Canada",
+"postcode": "W0G 0A2",
+"coordinates": {
+"latitude": "-9.2065",
+"longitude": "117.6173"
+},
+"timezone": {
+"offset": "-5:00",
+"description": "Eastern Time (US & Canada), Bogota, Lima"
+}
+},
+"email": "sofia.miller@example.com",
+"dob": {
+"date": "1975-05-12T06:27:00.176Z",
+"age": 46
+},
+"cell": "801-460-2565",
+"id": {
+"name": "",
+"value": null
+},
+"picture": {
+"large": "https://randomuser.me/api/portraits/women/95.jpg",
+"medium": "https://randomuser.me/api/portraits/med/women/95.jpg",
+"thumbnail": "https://randomuser.me/api/portraits/thumb/women/95.jpg"
+}
+},
+{
+"name": {
+"title": "Mr",
+"first": "Ritthy",
+"last": "Bailey"
+},
+"location": {
+"street": {
+"number": 1817,
+"name": "Oak Lawn Ave"
+},
+"city": "Greensboro",
+"state": "North Dakota",
+"country": "United States",
+"postcode": 11091,
+"coordinates": {
+"latitude": "45.8168",
+"longitude": "73.4482"
+},
+"timezone": {
+"offset": "+9:30",
+"description": "Adelaide, Darwin"
+}
+},
+"email": "ritthy.bailey@example.com",
+"dob": {
+"date": "1982-02-07T16:41:35.885Z",
+"age": 39
+},
+"cell": "(780)-531-8372",
+"id": {
+"name": "SSN",
+"value": "885-29-9978"
+},
+"picture": {
+"large": "https://randomuser.me/api/portraits/men/69.jpg",
+"medium": "https://randomuser.me/api/portraits/med/men/69.jpg",
+"thumbnail": "https://randomuser.me/api/portraits/thumb/men/69.jpg"
+}
+},
+{
+"name": {
+"title": "Ms",
+"first": "Judy",
+"last": "Hughes"
+},
+"location": {
+"street": {
+"number": 9406,
+"name": "W Campbell Ave"
+},
+"city": "Cape Coral",
+"state": "Tennessee",
+"country": "United States",
+"postcode": 31665,
+"coordinates": {
+"latitude": "-68.0670",
+"longitude": "-108.5834"
+},
+"timezone": {
+"offset": "+5:45",
+"description": "Kathmandu"
+}
+},
+"email": "judy.hughes@example.com",
+"dob": {
+"date": "1960-12-24T21:48:15.147Z",
+"age": 61
+},
+"cell": "(567)-501-6312",
+"id": {
+"name": "SSN",
+"value": "164-61-8345"
+},
+"picture": {
+"large": "https://randomuser.me/api/portraits/women/22.jpg",
+"medium": "https://randomuser.me/api/portraits/med/women/22.jpg",
+"thumbnail": "https://randomuser.me/api/portraits/thumb/women/22.jpg"
+}
+},
+{
+"name": {
+"title": "Mr",
+"first": "Gabriel",
+"last": "Fortin"
+},
+"location": {
+"street": {
+"number": 3610,
+"name": "20th Ave"
+},
+"city": "Fountainbleu",
+"state": "Northwest Territories",
+"country": "Canada",
+"postcode": "I7C 2E9",
+"coordinates": {
+"latitude": "43.5762",
+"longitude": "162.6097"
+},
+"timezone": {
+"offset": "-9:00",
+"description": "Alaska"
+}
+},
+"email": "gabriel.fortin@example.com",
+"dob": {
+"date": "1976-01-27T02:33:11.679Z",
+"age": 45
+},
+"cell": "026-608-2920",
+"id": {
+"name": "",
+"value": null
+},
+"picture": {
+"large": "https://randomuser.me/api/portraits/men/44.jpg",
+"medium": "https://randomuser.me/api/portraits/med/men/44.jpg",
+"thumbnail": "https://randomuser.me/api/portraits/thumb/men/44.jpg"
+}
+}
+]

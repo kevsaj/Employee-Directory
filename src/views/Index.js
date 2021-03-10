@@ -12,6 +12,9 @@ import friends from "../components/friends.json";
 import CardTable from "components/Cards/CardTable.js";
 
 import HeaderStats from "components/Headers/HeaderStats.js";
+import img from '../assets/img/pattern_react.png';
+
+
 
 export default function Index() {
 
@@ -46,7 +49,7 @@ export default function Index() {
 
         <img
           className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860px"
-          src={require("../assets/img/pattern_react.png")}
+          src={img}
           alt="..."
         />
       </section>

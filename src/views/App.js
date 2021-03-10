@@ -1,41 +1,42 @@
-import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
-import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
-import friends from "./friends.json";
+import React, { useState } from 'react';
+import employees from "../utils/employees.json";
 
-class App extends Component {
-  // Setting this.state.friends to the friends json array
-  state = {
-    friends
-  };
 
-  removeFriend = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const friends = this.state.friends.filter(friend => friend.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ friends });
-  };
+function App() {
+    const [ searchTerm, setSearchTerm ] = useState("");
+    const [ sorted, setSorted] = useState(false);
+    const [ data, setEmployees ] = useState(employees);
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
-  render() {
+    function handleSearchTerm(event)  {
+        setSearchTerm(event.target.value)
+    }
+
+    function handleSortByName() {
+        // sort array ascending or descending 
+        if (!sorted) {
+            setEmployees(data.sort((a, b) => (a.name > b.name) ? 1 : -1));
+            setSorted(true);
+        } else {
+            setEmployees(data.sort((a, b) => (a.name > b.name) ? -1 : 1));
+            setSorted(false);
+        }
+    }
+
+    // filtering out the names of employees with matching strings 
+    const filteredEmployees = data.filter(employee => employee.name.first.toLowerCase().startsWith(searchTerm.toLowerCase()));
     return (
-      <Wrapper>
-        <Title>Employee Directory</Title>
-        {this.state.friends.map(friend => (
-          <FriendCard
-            removeFriend={this.removeFriend}
-            id={friend.id}
-            key={friend.id}
-            name={friend.name}
-            image={friend.image}
-            occupation={friend.occupation}
-            location={friend.location}
-          />
-        ))}
-      </Wrapper>
-    );
-  }
+        <div>
+            <Header/>
+            <Wrapper>
+                <SearchBar
+                    onSearch={handleSearchTerm}
+                    searchTerm={searchTerm}
+                    handleSortByName={handleSortByName}
+                />
+                <EmployeeCardList data={filteredEmployees}/>
+            </Wrapper>
+        </div>
+    )
 }
 
 export default App;
