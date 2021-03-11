@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/users', (req, res) => {
-    axios.get('https://randomuser.me/api/?page=1&results=10')
+    axios.get('https://randomuser.me/api/?results=25&nat=us')
         .then(response => {
             res.send(response.data);
          });
