@@ -26,7 +26,7 @@ const addUsers = (users) => {
 
 class App extends React.Component {
     componentDidMount() {
-        axios.get('https://randomuser.me/api/?results=20&nat=us')
+        axios.get('https://randomuser.me/api/?results=25&nat=us')
             .then(response => {
                 console.log(response.data);
                 store.dispatch(addUsers(response.data.results));
