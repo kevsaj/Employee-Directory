@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import Header from './components/Header';
 import UsersList from './components/UsersList';
 import './css/styles.css';
+import SearchBar from "./components/SearchBar";
 
 import { createStore } from 'redux';
 import usersReducer from './reducers/users';
@@ -25,7 +26,7 @@ const addUsers = (users) => {
 
 class App extends React.Component {
     componentDidMount() {
-        axios.get('https://randomuser.me/api/?page=1&results=10')
+        axios.get('https://randomuser.me/api/?results=25&nat=us')
             .then(response => {
                 console.log(response.data);
                 store.dispatch(addUsers(response.data.results));
@@ -35,6 +36,7 @@ class App extends React.Component {
         return (
             <div className="main-section">
                 <Header />
+                <SearchBar />
                 <UsersList />
             </div>
         )
